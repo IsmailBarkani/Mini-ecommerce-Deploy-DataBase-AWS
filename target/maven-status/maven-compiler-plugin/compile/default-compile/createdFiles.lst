@@ -1,0 +1,6 @@
+web\Modele\ProduitModel.class
+dao\IProduitDao.class
+dao\ProduitDaoImpl.class
+dao\entities\Produit.class
+dao\SingletonConnection.class
+web\Controler\ControleurServlet.class
