@@ -1,5 +1,5 @@
 FROM tomcat:8.5.16-jre8-alpine
-EXPOSE 8080
+EXPOSE 8000
 #ENV DB_URL=''
 #ENV DB_PORT=''
 #ENV DB_USERNAME=''
