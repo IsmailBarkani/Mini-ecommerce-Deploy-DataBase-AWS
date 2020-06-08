@@ -33,7 +33,7 @@ public class ProduitDaoImpl implements IProduitDao {
         ArrayList<Produit> produits = new ArrayList<Produit>();
         Connection con = new SingletonConnection().getMyConnection();
 
-        PreparedStatement ps = con.prepareStatement("SELECT * FROM PRODUIT WHERE DESIGNATION LIKE ?");
+        PreparedStatement ps = con.prepareStatement("SELECT * FROM produit WHERE designation LIKE ?");
         ps.setString(1,"%"+mc+"%");
 
         ResultSet rs = ps.executeQuery();
