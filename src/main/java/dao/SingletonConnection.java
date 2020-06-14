@@ -15,7 +15,7 @@ public class SingletonConnection {
             //String url = "jdbc:mysql://" + System.getenv("DB_URL") + ":3306/mydb";
             //String username = System.getenv("DB_USERNAME");
             //String password = System.getenv("DB_PASSWORD");
-            myConnection = DriverManager.getConnection("jdbc:mysql://terraform-20200614114419484200000002.cna5xi486vmk.eu-west-3.rds.amazonaws.com:3306/db_catal","root","rootroot");
+            myConnection = DriverManager.getConnection("jdbc:mysql:// terraform-20200614160944133500000003.cna5xi486vmk.eu-west-3.rds.amazonaws.com:3306/db_catal","root","rootroot");
 
         }catch(ClassNotFoundException | SQLException e){             
             e.printStackTrace();
